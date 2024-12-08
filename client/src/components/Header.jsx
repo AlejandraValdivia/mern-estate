@@ -28,11 +28,6 @@ export default function Header() {
     <header className="bg-slate-200 shadow-sm p-4 sticky top-0">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
-          <img
-            src="https://img.icons8.com/color/48/000000/property.png"
-            alt="logo"
-            className="w-10 h-10"
-          />
           <h1
             className="font-bold text-sm sm:text-xl flex flex-wrap"
             style={{ marginLeft: "1rem" }}
